@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h1>Express file upload</h1>
+
+<form method="post" action="/file" enctype="multipart/form-data">
+  <input type="file" name="test">
+  <input type="submit" name="submit" value="Submit">
+</form>
+
+{% endblock %}
