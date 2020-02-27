@@ -1,0 +1,1 @@
+aws ecs delete-service --cluster my-ECS-cluster --service my-nginx-service --region us-east-1
